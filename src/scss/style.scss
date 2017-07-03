@@ -4,6 +4,7 @@
 @import 'variables.scss';
 @import 'global.scss';
 @import 'fonts.scss';
+@import 'sprite.scss';
 
 // Это импорт файла с примесями для растровых спрайтов. Используете растровые спрайты — раскомментить,
 // посмотреть контент. Найти примеси, выводящие свойства спрайтов и вызвать эти примеси в нужных вам
@@ -11,4 +12,6 @@
 // @import 'sprite.scss';
 
 // БЭМ-блоки. Один БЭМ-блок = 1 файл
+@import 'blocks/slick-theme.scss';
+@import 'blocks/slick.scss';
 @import 'blocks/page-header.scss';
