@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  // весь ваш код
+$(".menu-collapsed").click(function() {
+  $(this).toggleClass("menu-expanded");
+});
 });
