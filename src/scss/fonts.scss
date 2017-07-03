@@ -1,4 +1,44 @@
-// @font-face {
-//   font-family: ...;
-//   src:url();
-// }
+@font-face {
+  font-family: 'FS-Bold';
+  src: url('../fonts/subset-FiraSans-Bold.woff2') format('woff2'),
+    url('../fonts/subset-FiraSans-Bold.woff') format('woff'),
+    url('../fonts/subset-FiraSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'FS-Italic';
+  src: url('../fonts/subset-FiraSans-Italic.woff2') format('woff2'),
+    url('../fonts/subset-FiraSans-Italic.woff') format('woff'),
+    url('../fonts/subset-FiraSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FS-Light';
+  src: url('../fonts/subset-FiraSans-Light.woff2') format('woff2'),
+    url('../fonts/subset-FiraSans-Light.woff') format('woff'),
+    url('../fonts/subset-FiraSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FS-Medium';
+  src: url('../fonts/subset-FiraSans-Medium.woff2') format('woff2'),
+    url('../fonts/subset-FiraSans-Medium.woff') format('woff'),
+    url('../fonts/subset-FiraSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FS-Regular';
+  src: url('../fonts/subset-FiraSans-Regular.woff2') format('woff2'),
+    url('../fonts/subset-FiraSans-Regular.woff') format('woff'),
+    url('../fonts/subset-FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
