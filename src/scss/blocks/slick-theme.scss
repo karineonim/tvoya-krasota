@@ -64,8 +64,8 @@ $slick-opacity-not-active: 0.25 !default;
 .slick-next {
     position: absolute;
     display: block;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     line-height: 0px;
     font-size: 0px;
     cursor: pointer;
@@ -78,53 +78,59 @@ $slick-opacity-not-active: 0.25 !default;
     padding: 0;
     border: none;
     outline: none;
+    border-top: 2px solid $text-color;
+    border-left: 2px solid $text-color;
+    z-index: 5;
+
+    // height: 20px;
+    // width: 20px;
+
     &:hover, &:focus {
         outline: none;
         background: transparent;
         color: transparent;
         &:before {
-            opacity: $slick-opacity-on-hover;
         }
     }
     &.slick-disabled:before {
-        opacity: $slick-opacity-not-active;
     }
     &:before {
-        font-family: $slick-font-family;
-        font-size: 20px;
-        line-height: 1;
-        color: $slick-arrow-color;
-        opacity: $slick-opacity-default;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
+        // font-family: $slick-font-family;
+        // font-size: 20px;
+        // line-height: 1;
+        // color: $slick-arrow-color;
+        // opacity: $slick-opacity-default;
+        // -webkit-font-smoothing: antialiased;
+        // -moz-osx-font-smoothing: grayscale;
+
     }
 }
 
 .slick-prev {
-    left: -25px;
+    left: -18px;
+
+    transform: rotate(-45deg);
     [dir="rtl"] & {
         left: auto;
         right: -25px;
     }
     &:before {
-        content: $slick-prev-character;
-        [dir="rtl"] & {
-            content: $slick-next-character;
-        }
+        // content: $slick-prev-character;
+
+        
     }
 }
 
 .slick-next {
-    right: -25px;
-    [dir="rtl"] & {
-        left: -25px;
-        right: auto;
-    }
+    right: -18px;
+    transform: rotate(135deg);
+    // [dir="rtl"] & {
+    //     left: -25px;
+    //     right: auto;
+    // }
     &:before {
-        content: $slick-next-character;
-        [dir="rtl"] & {
-            content: $slick-prev-character;
-        }
+        // content: $slick-next-character;
+
     }
 }
 

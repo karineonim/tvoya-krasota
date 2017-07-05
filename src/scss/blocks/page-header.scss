@@ -13,25 +13,33 @@
 
   &__wrap{
   	position: relative;
+  	height: 200px;
   }
 
   &__logo{
   	position: absolute;
   	width: 30px;
   	transform: rotate(-5deg);
+
   }
 
-  &__undo{
-	width: 15%;
-	height: 50px;
-	content: '';
-  }
+ //  &__undo{
+	// width: 15%;
+	// // height: 50px;
+	// content: '';
+ //  }
 
   &__text{
-  	width: 80%;
-  	float: right;
-  	margin-top: -10px;
-  	margin-bottom: 10px;
+  	// width: 72%;
+  	// float: right;
+  	// margin-top: 20px;
+  	text-align: right;
+  	// margin-bottom: 10px;
   	font-family: $FS-Italic;
+  	position: absolute;
+  	// right: -20px;
+  	top: 20px;
+  	white-space: pre;
+  	width: 100%;
   }
 }
