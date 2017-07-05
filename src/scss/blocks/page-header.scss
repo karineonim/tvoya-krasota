@@ -10,4 +10,28 @@
   	width: 100%;
   	background-color: $text-color;
   }
+
+  &__wrap{
+  	position: relative;
+  }
+
+  &__logo{
+  	position: absolute;
+  	width: 30px;
+  	transform: rotate(-5deg);
+  }
+
+  &__undo{
+	width: 15%;
+	height: 50px;
+	content: '';
+  }
+
+  &__text{
+  	width: 80%;
+  	float: right;
+  	margin-top: -10px;
+  	margin-bottom: 10px;
+  	font-family: $FS-Italic;
+  }
 }

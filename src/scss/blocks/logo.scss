@@ -1,0 +1,18 @@
+.logo{
+	font-family: $Palette;
+	font-size: $font-size + 15px;
+
+	&--white{
+		color: $logo-color;
+		position: absolute;
+		z-index: 10;
+		top: -33px;
+	} 
+
+	&--dark{
+		color: #000;
+		position: absolute;
+		z-index: 10;
+		top: 5px;
+	}
+}
