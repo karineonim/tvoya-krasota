@@ -1,0 +1,34 @@
+.advice{
+	margin-bottom: 30px;
+
+	&__back{
+	background-image: url(../img/phoneback-lg.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	border-radius: 20px;
+	}
+
+	&__text{
+		width: 80%;
+		margin: 0 auto;
+		color: white;
+		text-shadow: 1px 1px 2px black, 0 0 1em red;
+		padding-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	input{
+		width: 80%;
+		margin-bottom: 15px;
+		border-radius: 15px;
+		padding-left: 5px;
+	}
+
+	&__btn{
+		margin-bottom: 10px;
+		box-shadow: 0 0 5px rgba(0,0,0,0.5);
+		text-shadow: 1px 1px 2px black, 0 0 1em red;
+	}
+}
