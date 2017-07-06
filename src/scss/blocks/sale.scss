@@ -1,0 +1,70 @@
+.sale{
+
+	&__title{
+		margin-bottom: 20px;
+	}
+
+	&__wrap{
+		width: 100%;
+	}
+
+	&__item{
+		max-width: 180px;
+		min-height: 10px;
+		background-image: linear-gradient(to top, rgba(74,36,17,1), rgba(167,106,25,1));
+		padding-top: 30px;
+		margin: 0 auto;
+		border-radius: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	&__pic{
+		width: 150px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	&__name{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 5px;
+		color: white;
+
+		&--brand{
+			color: white;
+			font-family: $FS-Medium;
+		}
+
+		&--size{
+			font-family: $FS-Bold;
+			color: $text-color;
+			text-shadow: 0 0 5px white, 0 0 1em white;
+			margin-top: -5px;
+		}
+	}
+
+	&__price{
+		font-size: $font-size + 6px;
+		text-align: center;
+		font-family: $FS-Medium;
+		color: white;
+		text-shadow: 0 0 5px $text-color, 0 0 1em $text-color;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	&__btn{
+		margin: 0 auto;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: -18px;
+	}
+
+	&__catalog{
+		text-align: center;
+		display: block;
+		font-family: $FS-Italic;
+		font-size: $font-size + 6px;
+	}
+}

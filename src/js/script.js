@@ -34,4 +34,34 @@ $(".menu-collapsed").click(function() {
   ]
   });
 
+  $('#sale-carousel').slick({
+   arrows: false,
+    infinite: false,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        speed: 300,
+    arrows: false,
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+          // autoplay: true,
+          // autoplaySpeed: 2000,
+          arrows: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1
+      }
+    }
+  ]
+  });
+
 });
