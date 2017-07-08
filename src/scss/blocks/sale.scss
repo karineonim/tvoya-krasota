@@ -6,17 +6,28 @@
 
 	&__wrap{
 		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		display: inline-block;
+	}
+
+	&__inner{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+		
 	}
 
 	&__item{
-		max-width: 180px;
-		min-height: 10px;
+		width: 180px;
 		background-image: linear-gradient(to top, rgba(74,36,17,1), rgba(167,106,25,1));
 		padding-top: 30px;
+		padding-bottom: 20px;
 		margin: 0 auto;
 		border-radius: 20px;
-		margin-left: 5px;
-		margin-right: 5px;
+		// margin-left: 5px;
+		// margin-right: 5px;
 	}
 
 	&__pic{
@@ -65,6 +76,7 @@
 		text-align: center;
 		display: block;
 		font-family: $FS-Italic;
-		font-size: $font-size + 6px;
+		font-size: $font-size + 10px;
+		margin-top: 20px;
 	}
 }
