@@ -1,0 +1,21 @@
+.footer-nav{
+	width: 50%;
+	&__list{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+		padding-left: 0;
+	}
+
+	&__item{
+		display: inline-block;
+	}
+
+	&__link{
+		display: inline-block;
+		color: white;
+	}
+}

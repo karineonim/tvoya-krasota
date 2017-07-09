@@ -1,0 +1,50 @@
+.page-footer{
+	background-color: $text-color;
+
+	&__wrap{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		color: white;
+
+	}
+
+	&__about{
+		// width: 320px;
+		font-family: $FS-Light;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	&__inner{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		width: 100%;
+		padding-right: 0;
+	}
+
+	&__social{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		width: 50%;
+		justify-content: flex-end;
+		margin-top: 10px;
+	}
+
+	&__contact{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+	}
+}
