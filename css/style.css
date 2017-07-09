@@ -598,40 +598,92 @@ p {
   display: none; }
 
 .commerce {
-  background-image: url(../img/sprite-048813938798255974.png);
-  background-position: 0px 0px;
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -68px -28px;
   width: 24px;
   height: 24px; }
 
-.interface {
-  background-image: url(../img/sprite-048813938798255974.png);
-  background-position: -28px 0px;
+.footer-instagram {
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: 0px -56px;
   width: 24px;
   height: 24px; }
 
-.multimedia {
-  background-image: url(../img/sprite-048813938798255974.png);
+.footer-mail {
+  background-image: url(../img/sprite-08016967322802433.png);
   background-position: 0px -28px;
   width: 24px;
   height: 24px; }
 
+.footer-phone {
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -96px -28px;
+  width: 18px;
+  height: 18px; }
+
+.footer-placeholder {
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -96px -50px;
+  width: 14px;
+  height: 20px; }
+
+.footer-twitter {
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: 0px 0px;
+  width: 28px;
+  height: 24px; }
+
+.footer-vk {
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 19px; }
+
+.interface {
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -28px -56px;
+  width: 24px;
+  height: 24px; }
+
+.multimedia {
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -56px -56px;
+  width: 24px;
+  height: 24px; }
+
 .signs {
-  background-image: url(../img/sprite-048813938798255974.png);
-  background-position: -28px -28px;
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -68px 0px;
   width: 24px;
   height: 24px; }
 
 .technology {
-  background-image: url(../img/sprite-048813938798255974.png);
-  background-position: -56px 0px;
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -28px -28px;
   width: 24px;
   height: 24px; }
 
 .transport {
-  background-image: url(../img/sprite-048813938798255974.png);
-  background-position: -56px -28px;
+  background-image: url(../img/sprite-08016967322802433.png);
+  background-position: -96px 0px;
   width: 24px;
   height: 24px; }
+
+.footer-twitter {
+  margin-right: 20px; }
+
+.footer-vk {
+  margin-right: 20px; }
+
+.footer-placeholder {
+  margin-right: 15px;
+  padding-left: 2px; }
+
+.footer-phone {
+  margin-right: 15px; }
+
+.footer-mail {
+  margin-right: 12px; }
 
 .logo {
   font-family: "Palette", sans-serif;
@@ -955,7 +1007,63 @@ p {
 .work {
   display: none; }
 
-@media (min-width: 1200px){
+.page-footer {
+  background-color: #411f06; }
+  .page-footer__wrap {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    color: white; }
+  .page-footer__about {
+    font-family: "FS-Light", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .page-footer__inner {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-right: 0; }
+  .page-footer__social {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    margin-top: 10px; }
+  .page-footer__contact {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex; }
+
+.footer-nav {
+  width: 50%; }
+  .footer-nav__list {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding-left: 0; }
+  .footer-nav__item {
+    display: inline-block; }
+  .footer-nav__link {
+    display: inline-block;
+    color: white; }
+  @media (min-width: 1200px){
   .container{
     width: 1200px;
     margin: 0 auto; } }
