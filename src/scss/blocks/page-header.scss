@@ -41,5 +41,24 @@
   	top: 20px;
   	white-space: pre;
   	width: 100%;
+
+    &--desk{
+      display: none;
+    }
+  
+    @media(min-width:'$screen-sm'){
+      text-align: center;
+      white-space: normal;
+      margin-top: 30px;
+
+      &--desk{
+        display: block;
+      }
+    }
+
+  }
+
+  &__container{
+    position: relative;
   }
 }

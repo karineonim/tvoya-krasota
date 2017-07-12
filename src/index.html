@@ -5,27 +5,23 @@
   <title>Твоя Красота</title>
 </head>
 <body>
-  <!-- Это включение в разметку SVG-спрайта и пример его использования -->
-  <!-- @@include('img/sprite-svg.svg') -->
-  <!-- <svg width="24" height="24"><use xlink:href="#loupe"></use></svg> -->
-  <!-- <svg width="24" height="24"><use xlink:href="#rgb"></use></svg> -->
-  <!-- <svg width="24" height="24"><use xlink:href="#tea-cup"></use></svg> -->
-
-
-  <!-- Это примеры использования растрового спрайта -->
-  <!--
-  <div class="chrome"></div>
-  <div class="github-logo"></div>
-  <div class="kraken"></div>
-  <div class="male-and-female"></div>
-  <div class="musica-searcher"></div>
-  <div class="placeholder"></div>
-  -->
 
   <header class="page-header">
     <div class="page-header__social">
     </div>
     <div class="page-header__container container">
+
+    <nav class="page-header__main-nav main-nav">
+    <ul class="main-nav__list">
+
+      <li class="main-nav__item"><a href="#" class="main-nav__link">Цены</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">О нас</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">Отзывы</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">8(812) 945-5755</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">sales@tvoya-krasota.ru</a></li>
+     </ul>
+      </nav>
+
     <nav class="menu-collapsed">
     <div class="bar"></div>
     <ul class="toggle-nav__list">
@@ -37,6 +33,10 @@
       <li class="toggle-nav__item"><a href="#" class="toggle-nav__link">sales@tvoya-krasota.ru</a></li>
      </ul>
       </nav>
+
+      
+
+
     <div class="page-header__wrap">
       <div class="page-header__logo logo"><span class="logo logo--white page-header__logo page-header__logo--up">Твоя</span> <span class="logo logo--dark page-header__logo page-header__logo--up">красота</span></div>
       <!-- <div class="page-header__undo"></div> -->
@@ -47,7 +47,8 @@
       косметические средства для 
       омоложения, которые 
       эффективно замедляют все 
-      возрастные изменения кожи. 
+      возрастные изменения кожи.
+      <div class="page-header__text page-header__text--desk">Среди ингредиентов косметики: аминокислоты и поливитамины, антиоксиданты и минералы, а омолаживающий эффект достигается без применения стволовых клеток и только за счет применения уникальных биомиметических пептидов, выработки гиалуроновой кислоты, эластина и коллагена.</div> 
        </div> 
       </div>
       <div class="page-header__call">
@@ -160,8 +161,9 @@
 <!-- О НАС -->
   <section class="about">
     <div class="about__container container">
+      <h2 class="about__title title">О нас</h2> 
     <div class="about__image">
-    <h2 class="about__title title">О нас</h2>
+  
       
         <div class="about__wrap">
           <div class="about__circle"><div class="transport"></div></div>
@@ -269,15 +271,6 @@
 
     </div>
 
-<!-- КНОПКА ДЛЯ ПРОКРУТКИ САЙТА
--->
-<!-- <div class="up">
-<div class="up__container container">
-  <a href="#up" class="up__btn btn btn--circle"> <div class="arrow"></div></a>
-  </div>
-</div> -->
-<!-- СКРИПТЫ НА JS
--->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ-cEKg_F5pO4LAtnIm1-Iox4lk-qUtjI&signed_in=true&callback=initMap"></script>
 <script src="js/script.min.js"></script>
 

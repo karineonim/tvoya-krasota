@@ -18,4 +18,8 @@
 		display: inline-block;
 		color: white;
 	}
+
+	@media(min-width:'$screen-sm'){
+			width: 300px;
+		}
 }

@@ -8,5 +8,10 @@
 		width: 100%;
 		height: auto;
 		margin: 0 auto;
+
+		@media(min-width:'$screen-lg'){
+				margin-left: 20px;
+				margin-right: 20px;
+			}
 	}
 }

@@ -1,5 +1,5 @@
 .advice{
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 
 	&__back{
 	background-image: url(../img/phoneback-lg.jpg);
@@ -9,6 +9,9 @@
 	width: 100%;
 	border-radius: 20px;
 	background-size: cover;
+	@media(min-width:'$screen-sm'){
+		width: 600px;
+	}
 	}
 
 	&__text{
@@ -32,4 +35,6 @@
 		box-shadow: 0 0 5px rgba(0,0,0,0.5);
 		text-shadow: 1px 1px 2px black, 0 0 1em red;
 	}
+
+
 }

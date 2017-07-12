@@ -13,6 +13,8 @@ $(".menu-collapsed").click(function() {
     {
       breakpoint: 1200,
       settings: {
+        autoplay: true,
+          autoplaySpeed: 2000,
         speed: 300,
 	 	arrows: false,
     	infinite: true,
@@ -44,9 +46,9 @@ $(".menu-collapsed").click(function() {
       breakpoint: 1200,
       settings: {
         speed: 300,
-    arrows: false,
+    arrows: true,
       infinite: true,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 1,
       }
     },
