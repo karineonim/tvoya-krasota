@@ -4,30 +4,15 @@
 		margin-bottom: 20px;
 	}
 
-	&__wrap{
-		width: 100%;
-		margin: 0 auto;
-		text-align: center;
-		display: inline-block;
-	}
-
-	&__inner{
-		width: 100%;
-		margin: 0 auto;
-		text-align: center;
-		display: block;
-		
-	}
-
 	&__item{
+		min-height: 420px;
 		width: 180px;
 		background-image: linear-gradient(to top, rgba(74,36,17,1), rgba(167,106,25,1));
 		padding-top: 30px;
 		padding-bottom: 20px;
 		margin: 0 auto;
 		border-radius: 20px;
-		// margin-left: 5px;
-		// margin-right: 5px;
+		vertical-align: middle;
 	}
 
 	&__pic{
@@ -62,15 +47,22 @@
 		color: white;
 		text-shadow: 0 0 5px $text-color, 0 0 1em $text-color;
 		margin-top: 10px;
-		margin-bottom: 10px;
+	}
+
+	&__footer{
+	position: absolute;
+	bottom: 15px;
+	height: 80px;	
+	margin-left: 20px;
+	margin-top: 40px;
 	}
 
 	&__btn{
 		margin: 0 auto;
 		display: block;
-		margin-top: 20px;
-		margin-bottom: -18px;
+		
 	}
+
 
 	&__catalog{
 		text-align: center;
