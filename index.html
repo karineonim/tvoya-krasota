@@ -15,27 +15,23 @@
   <title>Твоя Красота</title>
 </head>
 <body>
-  <!-- Это включение в разметку SVG-спрайта и пример его использования -->
-  
-  <!-- <svg width="24" height="24"><use xlink:href="#loupe"></use></svg> -->
-  <!-- <svg width="24" height="24"><use xlink:href="#rgb"></use></svg> -->
-  <!-- <svg width="24" height="24"><use xlink:href="#tea-cup"></use></svg> -->
-
-
-  <!-- Это примеры использования растрового спрайта -->
-  <!--
-  <div class="chrome"></div>
-  <div class="github-logo"></div>
-  <div class="kraken"></div>
-  <div class="male-and-female"></div>
-  <div class="musica-searcher"></div>
-  <div class="placeholder"></div>
-  -->
 
   <header class="page-header">
     <div class="page-header__social">
     </div>
     <div class="page-header__container container">
+
+    <nav class="page-header__main-nav main-nav">
+    <ul class="main-nav__list">
+
+      <li class="main-nav__item"><a href="#" class="main-nav__link">Цены</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">О нас</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">Отзывы</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">8(812) 945-5755</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">sales@tvoya-krasota.ru</a></li>
+     </ul>
+      </nav>
+
     <nav class="menu-collapsed">
     <div class="bar"></div>
     <ul class="toggle-nav__list">
@@ -47,6 +43,10 @@
       <li class="toggle-nav__item"><a href="#" class="toggle-nav__link">sales@tvoya-krasota.ru</a></li>
      </ul>
       </nav>
+
+      
+
+
     <div class="page-header__wrap">
       <div class="page-header__logo logo"><span class="logo logo--white page-header__logo page-header__logo--up">Твоя</span> <span class="logo logo--dark page-header__logo page-header__logo--up">красота</span></div>
       <!-- <div class="page-header__undo"></div> -->
@@ -57,7 +57,8 @@
       косметические средства для 
       омоложения, которые 
       эффективно замедляют все 
-      возрастные изменения кожи. 
+      возрастные изменения кожи.
+      <div class="page-header__text page-header__text--desk">Среди ингредиентов косметики: аминокислоты и поливитамины, антиоксиданты и минералы, а омолаживающий эффект достигается без применения стволовых клеток и только за счет применения уникальных биомиметических пептидов, выработки гиалуроновой кислоты, эластина и коллагена.</div> 
        </div> 
       </div>
       <div class="page-header__call">
@@ -98,12 +99,13 @@
     <div class="sale__line"></div>
     <div class="sale__container container">
     <h1 class="sale__title title">DERMAHEAL (CAREGEN)</h1>
-    <div class="sale__wrap">
+    <!-- <div class="sale__wrap"> -->
 
       <div id='sale-carousel'>
-      <div class='inner'>
+      <div class='sale__inner'>
       <article class="sale__item">
         <img src="img/item-1.jpg" alt="" class="sale__pic">
+        
         <div class="sale__name">Dermaheal EyeBag Serum
           <div class="sale__name sale__name--brand">Сыворотка от "мешков под глазами"</div>
           <div class="sale__name sale__name--size">10 мл</div>
@@ -111,58 +113,60 @@
         <div class="sale__footer">
           <div class="sale__price">1 440 руб.</div>
           <button class="sale__btn btn">Заказать</button>
+
+
         </div>
     </article>
-</div><div class='inner'>
+</div><div class='sale__inner'>
     <article class="sale__item">
         <img src="img/item-2.jpg" alt="" class="sale__pic">
-        <div class="sale__name">Далеко-далеко за.
-          <div class="sale__name sale__name--brand">Далеко-далеко за.</div>
-          <div class="sale__name sale__name--size">Далеко-далеко за.</div>
+        <div class="sale__name">Dermaheal aA Aqua Corrector
+          <div class="sale__name sale__name--brand">Корректор для проблемной кожи</div>
+          <div class="sale__name sale__name--size">15 мл</div>
         </div>
         <div class="sale__footer">
-          <div class="sale__price">Далеко-далеко за словесными горами в стране.</div>
+          <div class="sale__price">1 350 руб.</div>
           <button class="sale__btn btn">Заказать</button>
         </div>
     </article>
-    </div><div class='inner'>
+    </div><div class='sale__inner'>
     <article class="sale__item">
         <img src="img/item-3.jpg" alt="" class="sale__pic">
-        <div class="sale__name">Далеко-далеко за.
-          <div class="sale__name sale__name--brand">Далеко-далеко за.</div>
-          <div class="sale__name sale__name--size">Далеко-далеко за.</div>
+        <div class="sale__name">Dermaheal Aqua Mist
+          <div class="sale__name sale__name--brand">Спрей увлажняющий</div>
+          <div class="sale__name sale__name--size">100 мл</div>
         </div>
         <div class="sale__footer">
-          <div class="sale__price">Далеко-далеко за словесными горами в стране.</div>
+          <div class="sale__price">1 290 руб.</div>
           <button class="sale__btn btn">Заказать</button>
         </div>
     </article>
-    </div><div class='inner'>
+    </div><div class='sale__inner'>
     <article class="sale__item">
         <img src="img/item-4.jpg" alt="" class="sale__pic">
-        <div class="sale__name">Далеко-далеко за.
-          <div class="sale__name sale__name--brand">Далеко-далеко за.</div>
-          <div class="sale__name sale__name--size">Далеко-далеко за.</div>
+        <div class="sale__name">Dermaheal Aqua Peel
+          <div class="sale__name sale__name--brand">Набор для пилинга</div>
+          <div class="sale__name sale__name--size">15 мл</div>
         </div>
         <div class="sale__footer">
-          <div class="sale__price">Далеко-далеко за словесными горами в стране.</div>
+          <div class="sale__price">1 690 руб.</div>
           <button class="sale__btn btn">Заказать</button>
         </div>
     </article>
-    </div><div class='inner'>
+    </div><div class='sale__inner'>
     <article class="sale__item">
         <img src="img/item-5.jpg" alt="" class="sale__pic">
-        <div class="sale__name">Далеко-далеко за.
-          <div class="sale__name sale__name--brand">Далеко-далеко за.</div>
-          <div class="sale__name sale__name--size">Далеко-далеко за.</div>
+        <div class="sale__name">Dermaheal Cleanser aA Aqua
+          <div class="sale__name sale__name--brand">Гель очищающий для лица</div>
+          <div class="sale__name sale__name--size">100 мл</div>
         </div>
         <div class="sale__footer">
-          <div class="sale__price">Далеко-далеко за словесными горами в стране.</div>
+          <div class="sale__price">1 190 руб.</div>
           <button class="sale__btn btn">Заказать</button>
         </div>
     </article>
     </div>
-    </div>
+    <!-- </div> -->
     </div>
       <a href="#" class="sale__catalog">Просмотреть весь каталог</a>
     </div>
@@ -170,8 +174,9 @@
 <!-- О НАС -->
   <section class="about">
     <div class="about__container container">
+      <h2 class="about__title title">О нас</h2> 
     <div class="about__image">
-    <h2 class="about__title title">О нас</h2>
+  
       
         <div class="about__wrap">
           <div class="about__circle"><div class="transport"></div></div>
@@ -216,20 +221,23 @@
       <h2 class="work__title title">Как мы работаем?</h2>
       <div class="work__wrap">
         <div class="work__circle">
-          <p class="work__text">Оставляете заявку</p>
-          <span class="work__text work__text--small">на сайте</span>
+          <img src="img/work-woman.png" alt="" class="work__shopping-big">
+          <p class="work__text">Оставляете заявку на сайте</p>
+          <div class="work__line work__line--upper"><div class="work__arrow"></div></div>
         </div>
         <div class="work__circle">
-          <p class="work__text">Консультация</p>
-          <span class="work__text work__text--small">нашего специалиста</span>
+          <img src="img/shopping-phone.png" alt="" class="work__shopping-small">
+          <p class="work__text work__text--sm">Консультация нашего специалиста</p>
+          <div class="work__line work__line--down"><div class="work__arrow work__arrow--down"></div></div>
         </div>
         <div class="work__circle">
-          <p class="work__text">Уточнение</p>
-          <span class="work__text work__text--small">заказа и адреса</span>
+          <img src="img/shopping-search.png" alt="" class="work__shopping-small">
+          <p class="work__text work__text--sm">Уточнение заказа и адреса</p>
+          <div class="work__line work__line--up"><div class="work__arrow"></div></div>
         </div>
         <div class="work__circle">
-          <p class="work__text">Доставка заказа</p>
-          <span class="work__text work__text--small">нашим куръером</span>
+          <img src="img/shopping.png" alt="" class="work__shopping-big">
+          <p class="work__text">Доставка заказа нашим куръером</p>
         </div>
       </div>
     </div>
@@ -279,15 +287,6 @@
 
     </div>
 
-<!-- КНОПКА ДЛЯ ПРОКРУТКИ САЙТА
--->
-<!-- <div class="up">
-<div class="up__container container">
-  <a href="#up" class="up__btn btn btn--circle"> <div class="arrow"></div></a>
-  </div>
-</div> -->
-<!-- СКРИПТЫ НА JS
--->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ-cEKg_F5pO4LAtnIm1-Iox4lk-qUtjI&signed_in=true&callback=initMap"></script>
 <script src="js/script.min.js"></script>
 
