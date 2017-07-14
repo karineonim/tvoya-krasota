@@ -1,6 +1,10 @@
 .page-footer{
 	background-color: $text-color;
 
+	@media(min-width:'$screen-lg'){
+		min-width: 1250px;
+	}
+
 	&__wrap{
 		display: -webkit-flex;
 		display: -moz-flex;
