@@ -30,8 +30,12 @@
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
+		flex-direction: column;
 		width: 100%;
 		padding-right: 0;
+		@media(min-width:'$screen-sm'){
+			flex-direction: row;
+		}
 	}
 
 	&__social{
@@ -40,12 +44,15 @@
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
-		width: 50%;
-		justify-content: flex-end;
+		width: 100%;
+		justify-content: center;
 		margin-top: 10px;
+		margin-bottom: 20px;
+
 
 		@media(min-width:'$screen-sm'){
 			width: 100%;
+			justify-content: flex-end;
 		}
 	}
 
